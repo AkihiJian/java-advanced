@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/icycoke?useUnicode=true&amp;characterEncodeing=UTF-8&amp;useSSL=false&amp;serverTimezone=GMT
+
+
+
+mybatis:
+  mapper-locations: classpath:mybatis/*.xml
